@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+
+    <title>Churrascômetro</title>
+</head>
+
+<body>
+    <div id="section">
+        <h1>Descubra o quanto de comida e bebida você <br> 
+        precisa para seu churrasco</h1>
+        
+        <img src="./image/Amigos.png" alt="">
+    </div>
+   
+
+    <div class="container">
+        <img src="./image/465-4656827_logo-churrasco-png-churrasco-na-faixa-png-clipart.png" alt="">
+        <input id="adultos" nome="adultos" type="number" placeholder="Adultos">
+        <input id="criancas" nome="crianças" type="number" placeholder="Crianças">
+        <input id="duracao" nome="duracao" type="number" placeholder="Duração (h)"> 
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="resultado"></div>
+
+    </div>
+    
+    
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

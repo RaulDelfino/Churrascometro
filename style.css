@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(234, 236, 97, 0.844) ;
+    font-family: 'Hubballi', cursive;
+    display: flex;
+} 
+#section h1 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 150px;
+    text-align: center;
+}
+#section {
+    flex-direction: row;
+
+}
+#section img {
+    width: 450px;
+    margin-left: 250px;
+}
+.container {
+    
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    max-width: 400px;
+    margin: auto;
+    background-color: #fffdfd;
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+    height: 500px;
+    width: 350px;
+    margin-right: 90px;
+}
+.container img {
+    width: 200px;
+    margin-top: -70px
+}
+input {
+    font-family: 'Hubballi', cursive;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border:none;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.056) ;
+}
+button {
+    width: 80%;
+    height: 30px;
+    border: none;
+    background-color: rgba(228, 67, 67, 0.933);
+    border-radius: 10px;
+    color: white;
+}
+button:hover {
+    background-color: rgb(255, 0, 0);
+    width: 83%;
+    height: 35px;
+    margin-top: -5px;
+    transition: 60ms;
+}
+@media screen and (max-width: 375px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    #section {
+       
+    }
+    
+    
+}
